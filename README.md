@@ -21,10 +21,18 @@
 
 Data teams spend 10-15% of their time firefighting pipeline failures instead of building. This platform changes that.
 
-- **Real-time dbt monitoring** — catch test failures and run anomalies within seconds, not hours
-- **Snowflake cost intelligence** — track warehouse spend, detect cost spikes, identify expensive queries
-- **Claude AI co-pilot** — get instant root cause analysis and optimization suggestions for any failure
-- **Anomaly detection** — null spikes, volume drops, schema drift, freshness issues — all automated
+Built on the **three pillars of observability** for data pipelines:
+
+| Pillar | What it covers |
+|--------|---------------|
+| **Metrics** | Pipeline latency, Snowflake warehouse credits, query duration p50/p95, success rates, cost per warehouse/day |
+| **Logs** | dbt test failures, run errors, Snowflake slow query history, anomaly event audit trail |
+| **Traces** | Data freshness tracking (table last-updated), schema drift detection, upstream dependency lineage |
+
+**Plus AI-powered action layer:**
+- **Claude AI co-pilot** — instant root cause analysis and SQL optimization for any failure or slow query
+- **Anomaly detection** — null spikes, volume drops, schema drift, freshness SLA breaches, all automated
+- **Slack alerting** — P1/P2 anomalies push to Slack with diagnosis and recommended fix
 - **One-click remediation** — resolve, annotate, and track anomalies from a single dashboard
 
 ---
