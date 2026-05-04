@@ -151,6 +151,16 @@ GET  /metrics                        # Prometheus metrics
 
 ---
 
+
+---
+
+## Related Portfolio Systems
+
+- [Real-Time Fintech Data Platform](https://github.com/Snehabankapalli/real-time-fintech-pipeline-kafka-spark-snowflake) — the streaming platform this tool monitors
+- [Modern Data Platform Migration](https://github.com/Snehabankapalli/modern-data-platform-migration) — batch platform this tool monitors
+- [HIPAA-Compliant Data Lake](https://github.com/Snehabankapalli/hipaa-data-lake-aws) — regulated healthcare platform this tool monitors
+- [GenAI Data Engineering Portfolio](https://github.com/Snehabankapalli/genai-de-portfolio) — AI tooling that extends this observability platform
+
 ## Contributing
 
 See [CONTRIBUTING.md](.github/CONTRIBUTING.md) for setup, standards, and workflow.
